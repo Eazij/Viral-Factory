@@ -1,2 +1,2 @@
 # Viral-Factory
-A responsive landing page built with HTML, CSS and JavaScript.
+A responsive social media shopping landing page built with HTML, CSS and JavaScript.
