@@ -1,0 +1,209 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* COLORS FROM REFERENCE */
+:root {
+  --cream: #f7efe6;
+  --peach: #efd3b8;
+  --dark-green: #0e3b2e;
+  --leaf-green: #2f5d50;
+}
+
+/* NAVBAR */
+.custom-nav {
+  background-color: var(--cream);
+}
+
+.nav-link {
+  color: var(--dark-green);
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: var(--leaf-green);
+}
+
+/* HERO */
+.hero-section {
+  background-color: var(--cream);
+  padding: 80px 0;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--dark-green);
+}
+
+.hero-subtitle {
+  color: var(--leaf-green);
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  color: #555;
+  max-width: 600px;
+}
+
+/* BUTTONS */
+.btn-main {
+  background-color:var(--dark-green);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 30px;
+}
+
+.btn-main:hover {
+  background-color: var(--leaf-green);
+}
+
+.btn-outline-main {
+  border: 2px solid var(--dark-green);
+  color: var(--dark-green);
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+
+.btn-outline-main:hover {
+  background-color: var(--dark-green);
+  color: white;
+}
+
+
+/* SERVICES */
+.services-section {
+  background-color: var(--peach);
+  padding: 70px 0;
+}
+
+.section-title {
+  color: var(--dark-green);
+  font-weight: 700;
+}
+
+.service-card {
+  background-color: var(--cream);
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+}
+
+.service-card h5 {
+  color: var(--dark-green);
+  margin-bottom: 10px;
+}
+
+.pricing-section {
+  padding: 80px 0;
+  background: var(--cream);
+}
+
+.price-card {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.price-card h3 {
+  color: var(--dark-green);
+  font-weight: 700;
+}
+
+.price-card .badge {
+  background: var(--dark-green);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.payment-options {
+  display: flex;
+  gap: 10px;
+}
+
+.pay-card {
+  flex: 1;
+  border: 2px solid #ddd;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.pay-card img {
+  width: 50px;
+  margin-bottom: 5px;
+}
+
+.pay-card input {
+  display: none;
+}
+
+.pay-card:hover {
+  border-color: var(--dark-green);
+}
+
+.testimonials {
+  background: var(--peach);
+  padding: 80px 0;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+
+
+
+/* FOOTER */
+.footer {
+  background-color: var(--dark-green);
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  padding: 12px;
+  border-radius: 50%;
+  z-index: 1000;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+
+@media(max-width:768px){
+  .hero-title {
+    font-size: 2.2rem;
+  }
+  .hero-text {
+    font-size: 0.95rem;
+  }
+}
+
